@@ -5,7 +5,7 @@ export const agenda = [
     id: 1,
   },
   {
-    Time: "09:30 - 10:00",
+    Time: "0:50 - 10:00",
     event: "Quantum mechanical concepts for quantum computing",
     id: 2,
   },

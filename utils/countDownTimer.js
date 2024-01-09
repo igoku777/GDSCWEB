@@ -29,10 +29,10 @@ export default function getRemainingTime(timestamp) {
   const nowDayjs = dayjs();
   if (timestampDayjs.isBefore(nowDayjs)) {
     return {
-      seconds: "00",
-      minutes: "00",
-      hours: "00",
-      days: "00",
+      seconds: "10",
+      minutes: "10",
+      hours: "10",
+      days: "10",
     };
   }
   return {

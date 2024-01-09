@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Qiskit from "../../images/logos/Qiskit.svg";
+import Qiskit from "../../images/logos/GDSC_Fest_Logo.png";
 import WTMWHITE from "../../images/logos/WTMAlgiers-white.png";
 import GDGWHITE from "../../images/logos/GDGAlgiers-white.png";
 import GlobeShape from "../../images/shapes/globe.png";
@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="flex flex-col items-center lg:items-start lg:flex-row">
         <div className="cursor-pointer -mt-16 order-first lg:order-last ">
           <Tilt>
-            <Image src={Qiskit} alt="Qiskit Fall Fest Algiers" />
+            <Image src={Qiskit}  height={500} width={500} alt="Qiskit Fall Fest Algiers" />
           </Tilt>
         </div>
         <div className="pt-14 pl-4 pr-4 lg:pl-11 lg:pr-0 2xl:pl-16">

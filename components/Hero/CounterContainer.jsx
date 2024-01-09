@@ -3,10 +3,10 @@ import getRemainingTime from '../../utils/countDownTimer'
 import CounterAtom from "./CounterAtom";
 const CounterContainer = ({ countDownLimit }) => {
     const defaultRemainingTime = {
-        days: '00',
-        hours: '00',
-        minutes: '00',
-        seconds: '00',
+        days: '10',
+        hours: '10',
+        minutes: '10',
+        seconds: '10',
     }
     const [remainingTime, setRemainingTime] = useState(defaultRemainingTime)
     const updateRemainingTime = (countdown) => {
